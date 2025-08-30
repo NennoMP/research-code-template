@@ -1,0 +1,36 @@
+[project]
+name = "you paper title here"
+description = "A short description of your paper"
+authors = [
+    {name="Matteo Pinna", email="nennomp@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.2",
+    "pre-commit",
+    "ruff>=0.12.11",
+]
+
+[tool.ruff]
+indent-width = 4
+line-length = 88
+target-version = "py312"
+exclude = ["__pycache__", ".venv", "build", "dist", ".git"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.setuptools.packages.find]
+include = ["src*"]
