@@ -32,7 +32,7 @@ To install the required dependencies:
 ```
 conda create -n envname python=3.12
 conda activate envname
-pip install .
+pip install -e .
 ```
 
 ## Running the experiments
