@@ -1,5 +1,5 @@
 [project]
-name = "you paper title here"
+name = "you package/project name"
 description = "A short description of your paper"
 authors = [
     {name="Matteo Pinna", email="nennomp@gmail.com"},
