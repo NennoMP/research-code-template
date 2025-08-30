@@ -2,11 +2,11 @@
 
 # Your paper title here
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.09925-b31b1b.svg)](https://arxiv.org/abs/2508.09925)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2508.09925)
+[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/xxxx.xxxxx)
 
-[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/nennomp/research-code-template)
 ![code-quality](https://github.com/nennomp/research-code-template/actions/workflows/code-quality.yml/badge.svg)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/nennomp/research-code-template)
 
 </div>
 
@@ -22,8 +22,11 @@ Proceedings of Conference (Acronym), 20xx.
 Your abstract goes here.
 
 <div align="center">
-  <img src="assets/figure-1.png?raw=true" alt="Model" title="Model">
-  <figcaption><em><strong>Short caption title.</strong> Your caption text goes here.</em></figcaption>
+<img src="assets/figure-1.png?raw=true" alt="Model" title="Model">
+<br>
+<figcaption><em>
+<strong>Short caption title.</strong> Your caption text goes here.
+</em></figcaption>
 </div>
 
 ## Setup
