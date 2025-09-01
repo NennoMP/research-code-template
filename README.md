@@ -1,5 +1,5 @@
 ## Disclaimer
-If you use this template consider starring this repository.
+**If you use this template consider starring this repository.**
 
 <div align="center">
 
