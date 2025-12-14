@@ -28,7 +28,7 @@ exclude = ["__pycache__", ".venv", "build", "dist", ".git"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
-ignore = ["E741"]
+ignore = ["E741", "N812"]
 
 [tool.ruff.format]
 quote-style = "double"
