@@ -1,6 +1,3 @@
-## Disclaimer
-**If you use this template consider starring this repository.**
-
 <div align="center">
 
 # Your paper title here
